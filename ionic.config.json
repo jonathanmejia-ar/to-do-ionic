@@ -1,0 +1,8 @@
+{
+  "name": "To-Do-Ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "7edfb6d7"
+}
