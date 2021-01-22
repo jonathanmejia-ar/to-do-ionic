@@ -1,0 +1,20 @@
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar color="dark">
+    <ion-title>
+      Pending
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true" color="dark">
+
+  <app-tasks [completed]="false"></app-tasks>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="addTask()">
+      <ion-icon name="add-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>
